@@ -3,7 +3,7 @@ import {Alert, Button, Linking} from 'react-native';
 
 async function concordiumDeepLinkHandle() {
   try {
-    await Linking.sendIntent('concordium://');
+    await Linking.openURL('concordium://');
   } catch (error) {
     if (error instanceof Error) {
       Alert.alert(error.message);
