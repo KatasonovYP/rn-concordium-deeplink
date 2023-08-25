@@ -1,15 +1,25 @@
 {
-  "name": "concordiumDemoApp",
+  "name": "concordium-react-native-demo-app",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "start": "react-native start",
     "test": "jest"
   },
   "dependencies": {
+    "@concordium/browser-wallet-api-helpers": "^2.5.0",
+    "@concordium/node-sdk": "^9.0.0",
+    "@concordium/rust-bindings": "^1.1.0",
+    "@concordium/web-sdk": "^6.0.0",
+    "@walletconnect/qrcode-modal": "^1.8.0",
+    "@walletconnect/sign-client": "^2.10.0",
+    "babel-preset-react-native": "2.1.0",
+    "buffer": "6.0.3",
+    "crypto-js": "^4.1.1",
     "react": "18.2.0",
     "react-native": "0.72.1"
   },
