@@ -1,5 +1,5 @@
 import {Pressable, StyleSheet, Text, View} from 'react-native';
-import React, {FC, useState} from 'react';
+import {FC, useState} from 'react';
 
 export const Counter: FC = () => {
   const [count, setCount] = useState(0);
